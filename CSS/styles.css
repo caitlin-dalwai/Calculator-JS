@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url();
+    justify-content: center;
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+    
+}
+.title{
+    padding: 1em;
+}
+h1{
+    padding: .2em;
+    color: white;
+    background-color: #DE4A4A;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    height: 25em;
+    border-radius: 50px;
+    background: #E8CC8D;
+    box-shadow:  20px 20px 60px #c5ad78,
+                 -20px -20px 60px #ffeba2;
+    align-items: center;
+    padding: 1em;
+}
+
+.display{
+    width: 90%;
+    height: 2.5em;
+    background-color: white;
+    border-radius: .5em;
+    text-align: center;
+}
+/* container for button styling */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 85%;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+/* button styling */
+.button{
+    display: flex;
+    width: 25%;
+    height: 10%;
+    background-color: #64B0AE;
+    margin: .2em;
+   justify-content: center;
+    align-items: center;
+    font-size: 2ch;
+    border-radius: .3em;
+    box-shadow: 5px 5px 5px black;
+   
+}
+/* spcl characters */
+.eqls{
+    width: 50%;
+}
+.ac{
+    width: 35%;
+}
+
+/* Effects [pseudo] */
+.button:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+.button:active{
+    background-color: #53A29F;
+    box-shadow: 2px 2px 5px black;
+}
+
